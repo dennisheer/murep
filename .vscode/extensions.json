@@ -1,12 +1,12 @@
 {
-	"recommendations": [
-		"streetsidesoftware.code-spell-checker",
-		"editorconfig.editorconfig",
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode",
-		"svelte.svelte-vscode",
-		"bradlc.vscode-tailwindcss",
-		"ms-playwright.playwright",
-		"github.vscode-pull-request-github"
-	]
+  "recommendations": [
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "svelte.svelte-vscode",
+    "bradlc.vscode-tailwindcss",
+    "ms-playwright.playwright",
+    "github.vscode-pull-request-github"
+  ]
 }
