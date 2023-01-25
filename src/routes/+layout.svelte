@@ -22,7 +22,7 @@
   let isSideNavOpen = false;
 </script>
 
-<Header platformName="murep" bind:isSideNavOpen>
+<Header bind:isSideNavOpen platformName="murep">
   <svelte:fragment slot="skip-to-content">
     <SkipToContent />
   </svelte:fragment>
