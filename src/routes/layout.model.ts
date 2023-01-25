@@ -1,12 +1,13 @@
-export type RouteDefinition = { [key in Module]: Route | { text: string; sections: Route[] } };
+export type Routes = { routes: (RouteWithHref | RouteWithSections)[] };
 
-export type RouteDefinitionTest = {
-  [key in Module]: ({ text: string } & { href: string }) | { sections: Route[] };
-};
-
-type Module = 'dashboard' | 'repertoire' | 'ensembles';
-
-type Route = {
-  href: string;
+interface RouteBase {
   text: string;
-};
+}
+
+interface RouteWithHref extends RouteBase {
+  href: string;
+}
+
+interface RouteWithSections extends RouteBase {
+  sections: RouteWithHref[];
+}
