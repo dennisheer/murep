@@ -1,5 +1,5 @@
-import type {LayoutLoad} from './$types';
-import type {Routes} from "./layout.model";
+import type { LayoutLoad } from './$types';
+import type { Routes } from './layout.model';
 
 export const load: () => Routes = (() => {
   return {
@@ -37,7 +37,7 @@ export const load: () => Routes = (() => {
       {
         href: '/settings',
         text: 'Einstellungen',
-      }
-    ]
+      },
+    ],
   };
 }) satisfies LayoutLoad;
