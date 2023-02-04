@@ -2,3 +2,16 @@
 
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --header-height: 3rem;
+}
+
+body {
+  @apply min-h-[calc(100vh_-_var(--header-height))];
+}
+
+/* This fixes overlay issues between Carbon Component's menu and side nav */
+nav.bx--side-nav--expanded {
+  @apply z-[7999];
+}
