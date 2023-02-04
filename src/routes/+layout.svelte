@@ -1,7 +1,7 @@
 <script>
   import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
   import '@skeletonlabs/skeleton/styles/all.css';
-  import '../app.css';
+  import '../app.pcss';
   import { AppBar, AppRail, AppRailTile, AppShell } from '@skeletonlabs/skeleton';
 </script>
 
